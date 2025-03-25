@@ -1,0 +1,7 @@
+{
+  "package_name": "messages",
+  "non_idl_tuples": [
+    "/home/oh/project/drive3/fulfilment/src/messages:msg/Control.msg",
+    "/home/oh/project/drive3/fulfilment/src/messages:msg/Status.msg"
+  ]
+}

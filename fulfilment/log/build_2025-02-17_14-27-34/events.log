@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (messages) JobQueued: {'identifier': 'messages', 'dependencies': OrderedDict()}
+[0.000270] (fulfilment) JobQueued: {'identifier': 'fulfilment', 'dependencies': OrderedDict([('messages', '/home/oh/project/drive3/fulfilment/install/messages')])}
+[0.000975] (messages) JobStarted: {'identifier': 'messages'}
+[0.008456] (messages) JobProgress: {'identifier': 'messages', 'progress': 'cmake'}
+[0.008932] (messages) Command: {'cmd': ['/usr/bin/cmake', '/home/oh/project/drive3/fulfilment/src/messages', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/oh/project/drive3/fulfilment/install/messages'], 'cwd': '/home/oh/project/drive3/fulfilment/build/messages', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'oh'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/oh/project/drive3/fulfilment/install/messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('OLDPWD', '/home/oh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '923'), ('SYSTEMD_EXEC_PID', '1088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6877'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:825'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-550XBE-350XBE:@/tmp/.ICE-unix/1050,unix/oh-550XBE-350XBE:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'aac0ad84b5fd4abc9965e1fb7ba37b63'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMZJ22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '222'), ('AMENT_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install/fulfilment:/home/oh/project/drive3/fulfilment/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c4eb3b14-79ca-4c62-b1b3-700a642fe87e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/project/drive3/fulfilment/build/messages'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages:/home/oh/project/drive3/fulfilment/build/fulfilment:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install/messages:/home/oh/project/drive3/fulfilment/install/fulfilment:/opt/ros/humble')]), 'shell': False}
+[0.056549] (messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099722] (-) TimerEvent: {}
+[0.105247] (messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.111897] (messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.173137] (messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.180613] (messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.180867] (messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.181305] (messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.184000] (messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199856] (-) TimerEvent: {}
+[0.252980] (messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260495] (messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.260755] (messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.261203] (messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.263746] (messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300007] (-) TimerEvent: {}
+[0.400354] (-) TimerEvent: {}
+[0.405796] (messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.465885] (messages) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.490845] (messages) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.500433] (-) TimerEvent: {}
+[0.521583] (messages) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.526537] (messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.535371] (messages) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.547025] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.562330] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.576640] (messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600562] (-) TimerEvent: {}
+[0.700857] (-) TimerEvent: {}
+[0.801170] (-) TimerEvent: {}
+[0.818576] (messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.901290] (-) TimerEvent: {}
+[1.001600] (-) TimerEvent: {}
+[1.101898] (-) TimerEvent: {}
+[1.106194] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.202017] (-) TimerEvent: {}
+[1.217917] (messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.239517] (messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.241114] (messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.266231] (messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.266623] (messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.266721] (messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.266776] (messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.286751] (messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.302161] (-) TimerEvent: {}
+[1.321918] (messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.341229] (messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.342131] (messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.345870] (messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.372588] (messages) StdoutLine: {'line': b'-- Generating done\n'}
+[1.382406] (messages) StdoutLine: {'line': b'-- Build files have been written to: /home/oh/project/drive3/fulfilment/build/messages\n'}
+[1.389669] (messages) CommandEnded: {'returncode': 0}
+[1.390518] (messages) JobProgress: {'identifier': 'messages', 'progress': 'build'}
+[1.390571] (messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/oh/project/drive3/fulfilment/build/messages', '--', '-j8', '-l8'], 'cwd': '/home/oh/project/drive3/fulfilment/build/messages', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'oh'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/oh/project/drive3/fulfilment/install/messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('OLDPWD', '/home/oh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '923'), ('SYSTEMD_EXEC_PID', '1088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6877'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:825'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-550XBE-350XBE:@/tmp/.ICE-unix/1050,unix/oh-550XBE-350XBE:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'aac0ad84b5fd4abc9965e1fb7ba37b63'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMZJ22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '222'), ('AMENT_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install/fulfilment:/home/oh/project/drive3/fulfilment/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c4eb3b14-79ca-4c62-b1b3-700a642fe87e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/project/drive3/fulfilment/build/messages'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages:/home/oh/project/drive3/fulfilment/build/fulfilment:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install/messages:/home/oh/project/drive3/fulfilment/install/fulfilment:/opt/ros/humble')]), 'shell': False}
+[1.402266] (-) TimerEvent: {}
+[1.422234] (messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.430644] (messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.438213] (messages) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_messages\n'}
+[1.502365] (-) TimerEvent: {}
+[1.602660] (-) TimerEvent: {}
+[1.702931] (-) TimerEvent: {}
+[1.803404] (-) TimerEvent: {}
+[1.815206] (messages) StdoutLine: {'line': b'running egg_info\n'}
+[1.815912] (messages) StdoutLine: {'line': b'creating messages.egg-info\n'}
+[1.816343] (messages) StdoutLine: {'line': b'writing messages.egg-info/PKG-INFO\n'}
+[1.816567] (messages) StdoutLine: {'line': b'writing dependency_links to messages.egg-info/dependency_links.txt\n'}
+[1.816804] (messages) StdoutLine: {'line': b'writing top-level names to messages.egg-info/top_level.txt\n'}
+[1.817109] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.818658] (messages) StdoutLine: {'line': b'[  5%] Built target messages__cpp\n'}
+[1.819470] (messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/control__functions.c.o\x1b[0m\n'}
+[1.819683] (messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_c.dir/rosidl_generator_c/messages/msg/detail/status__functions.c.o\x1b[0m\n'}
+[1.820573] (messages) StdoutLine: {'line': b"reading manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.821748] (messages) StdoutLine: {'line': b"writing manifest file 'messages.egg-info/SOURCES.txt'\n"}
+[1.832711] (messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.833013] (messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.833172] (messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.877863] (messages) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_messages_egg\n'}
+[1.891704] (messages) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_generator_c.so\x1b[0m\n'}
+[1.903506] (-) TimerEvent: {}
+[1.928723] (messages) StdoutLine: {'line': b'[ 20%] Built target messages__rosidl_generator_c\n'}
+[1.939274] (messages) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.941644] (messages) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.941860] (messages) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.003600] (-) TimerEvent: {}
+[2.110174] (-) TimerEvent: {}
+[2.210490] (-) TimerEvent: {}
+[2.302210] (messages) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/control__type_support.cpp.o\x1b[0m\n'}
+[2.302528] (messages) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/messages/msg/detail/dds_fastrtps/status__type_support.cpp.o\x1b[0m\n'}
+[2.310663] (-) TimerEvent: {}
+[2.324555] (messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/status__type_support.cpp.o\x1b[0m\n'}
+[2.324787] (messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/messages/msg/control__type_support.cpp.o\x1b[0m\n'}
+[2.377677] (messages) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/control__type_support.cpp.o\x1b[0m\n'}
+[2.410777] (-) TimerEvent: {}
+[2.461234] (messages) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/control__type_support.cpp.o\x1b[0m\n'}
+[2.485646] (messages) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/control__type_support.c.o\x1b[0m\n'}
+[2.507295] (messages) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/messages/msg/status__type_support.cpp.o\x1b[0m\n'}
+[2.511047] (-) TimerEvent: {}
+[2.545342] (messages) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/messages/msg/detail/status__type_support.c.o\x1b[0m\n'}
+[2.559428] (messages) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.599382] (messages) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libmessages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.611192] (-) TimerEvent: {}
+[2.634382] (messages) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/control__type_support_c.cpp.o\x1b[0m\n'}
+[2.634722] (messages) StdoutLine: {'line': b'[ 58%] Built target messages__rosidl_typesupport_c\n'}
+[2.647793] (messages) StdoutLine: {'line': b'[ 58%] Built target messages__rosidl_typesupport_introspection_c\n'}
+[2.651853] (messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/messages/msg/detail/status__type_support.cpp.o\x1b[0m\n'}
+[2.659540] (messages) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/messages/msg/detail/status__type_support_c.cpp.o\x1b[0m\n'}
+[2.713137] (-) TimerEvent: {}
+[2.800412] (messages) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.813244] (-) TimerEvent: {}
+[2.852694] (messages) StdoutLine: {'line': b'[ 66%] Built target messages__rosidl_typesupport_cpp\n'}
+[2.913358] (-) TimerEvent: {}
+[3.013715] (-) TimerEvent: {}
+[3.016951] (messages) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.113843] (-) TimerEvent: {}
+[3.124207] (messages) StdoutLine: {'line': b'[ 69%] Built target messages__rosidl_typesupport_fastrtps_cpp\n'}
+[3.171100] (messages) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.176963] (messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmessages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.214079] (-) TimerEvent: {}
+[3.309376] (messages) StdoutLine: {'line': b'[ 74%] Built target messages__rosidl_typesupport_introspection_cpp\n'}
+[3.314072] (messages) StdoutLine: {'line': b'[ 74%] Built target messages__rosidl_typesupport_fastrtps_c\n'}
+[3.314412] (-) TimerEvent: {}
+[3.336764] (messages) StdoutLine: {'line': b'[ 74%] Built target messages\n'}
+[3.354530] (messages) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.414515] (-) TimerEvent: {}
+[3.514795] (-) TimerEvent: {}
+[3.615100] (-) TimerEvent: {}
+[3.715399] (-) TimerEvent: {}
+[3.753277] (messages) StdoutLine: {'line': b'[ 76%] Built target messages__py\n'}
+[3.770377] (messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_control_s.c.o\x1b[0m\n'}
+[3.770532] (messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_generator_py.dir/rosidl_generator_py/messages/msg/_status_s.c.o\x1b[0m\n'}
+[3.815569] (-) TimerEvent: {}
+[3.862752] (messages) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/libmessages__rosidl_generator_py.so\x1b[0m\n'}
+[3.897048] (messages) StdoutLine: {'line': b'[ 84%] Built target messages__rosidl_generator_py\n'}
+[3.915097] (messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.915270] (messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.915339] (messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/messages/_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.915631] (-) TimerEvent: {}
+[4.015874] (-) TimerEvent: {}
+[4.037112] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.037322] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.037446] (messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.072451] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_introspection_c__pyext\n'}
+[4.072763] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.072889] (messages) StdoutLine: {'line': b'[100%] Built target messages__rosidl_typesupport_c__pyext\n'}
+[4.083967] (messages) CommandEnded: {'returncode': 0}
+[4.084919] (messages) JobProgress: {'identifier': 'messages', 'progress': 'install'}
+[4.092072] (messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/oh/project/drive3/fulfilment/build/messages'], 'cwd': '/home/oh/project/drive3/fulfilment/build/messages', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'oh'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/oh/project/drive3/fulfilment/install/messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/oh'), ('OLDPWD', '/home/oh'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '923'), ('SYSTEMD_EXEC_PID', '1088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6877'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'oh'), ('JOURNAL_STREAM', '8:825'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'oh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/oh-550XBE-350XBE:@/tmp/.ICE-unix/1050,unix/oh-550XBE-350XBE:/tmp/.ICE-unix/1050'), ('INVOCATION_ID', 'aac0ad84b5fd4abc9965e1fb7ba37b63'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JMZJ22'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '222'), ('AMENT_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install/fulfilment:/home/oh/project/drive3/fulfilment/install/messages:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c4eb3b14-79ca-4c62-b1b3-700a642fe87e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/oh/project/drive3/fulfilment/build/messages'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages:/home/oh/project/drive3/fulfilment/build/fulfilment:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/oh/project/drive3/fulfilment/install/messages:/home/oh/project/drive3/fulfilment/install/fulfilment:/opt/ros/humble')]), 'shell': False}
+[4.099703] (messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.100269] (messages) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.100600] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/ament_index/resource_index/rosidl_interfaces/messages\n'}
+[4.108669] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/control.h\n'}
+[4.115990] (-) TimerEvent: {}
+[4.116437] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__functions.h\n'}
+[4.124200] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__struct.h\n'}
+[4.131992] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__type_support.h\n'}
+[4.139686] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__functions.h\n'}
+[4.148169] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__struct.h\n'}
+[4.155417] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__type_support.h\n'}
+[4.163276] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.170379] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/status.h\n'}
+[4.177570] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/library_path.sh\n'}
+[4.185309] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/library_path.dsv\n'}
+[4.194372] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__rosidl_typesupport_fastrtps_c.h\n'}
+[4.201306] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.208996] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.216117] (-) TimerEvent: {}
+[4.216771] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/control.hpp\n'}
+[4.224194] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__builder.hpp\n'}
+[4.231714] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__struct.hpp\n'}
+[4.238897] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__traits.hpp\n'}
+[4.247050] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__type_support.hpp\n'}
+[4.254174] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__builder.hpp\n'}
+[4.262763] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__struct.hpp\n'}
+[4.270725] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__traits.hpp\n'}
+[4.278587] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__type_support.hpp\n'}
+[4.286218] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.293931] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/status.hpp\n'}
+[4.302074] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.309697] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.316163] (-) TimerEvent: {}
+[4.317500] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.325421] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__rosidl_typesupport_introspection_c.h\n'}
+[4.333272] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[4.341170] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.349387] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.356591] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/include/messages/messages/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.365229] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/pythonpath.sh\n'}
+[4.372542] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/pythonpath.dsv\n'}
+[4.379909] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.387382] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.397926] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.405520] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.413434] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py\n'}
+[4.416234] (-) TimerEvent: {}
+[4.420443] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_c.c\n'}
+[4.427822] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.435306] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.442837] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/libmessages__rosidl_generator_py.so\n'}
+[4.450482] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.457464] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.465806] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.472988] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py\n'}
+[4.479945] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/_control.py\n'}
+[4.487010] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/_control_s.c\n'}
+[4.494033] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/_status.py\n'}
+[4.501005] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/_status_s.c\n'}
+[4.508138] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.508466] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.508650] (messages) StdoutLine: {'line': b'-- Up-to-date symlink: /home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/messages_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.508847] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/msg/Control.idl\n'}
+[4.516330] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/msg/Status.idl\n'}
+[4.516479] (-) TimerEvent: {}
+[4.523830] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/msg/Control.msg\n'}
+[4.531197] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/msg/Status.msg\n'}
+[4.538587] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/ament_index/resource_index/package_run_dependencies/messages\n'}
+[4.546875] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/ament_index/resource_index/parent_prefix_path/messages\n'}
+[4.553858] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/ament_prefix_path.sh\n'}
+[4.561365] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/ament_prefix_path.dsv\n'}
+[4.568885] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/path.sh\n'}
+[4.575784] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/environment/path.dsv\n'}
+[4.582889] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/local_setup.bash\n'}
+[4.589971] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/local_setup.sh\n'}
+[4.597181] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/local_setup.zsh\n'}
+[4.604135] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/local_setup.dsv\n'}
+[4.611276] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/package.dsv\n'}
+[4.616605] (-) TimerEvent: {}
+[4.618283] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/ament_index/resource_index/packages/messages\n'}
+[4.625721] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.633018] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/rosidl_cmake-extras.cmake\n'}
+[4.640363] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.648338] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.655524] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.662704] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.669852] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.676918] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messagesConfig.cmake\n'}
+[4.683938] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messagesConfig-version.cmake\n'}
+[4.690916] (messages) StdoutLine: {'line': b'-- Symlinking: /home/oh/project/drive3/fulfilment/install/messages/share/messages/package.xml\n'}
+[4.697909] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_generator_c.so\n'}
+[4.698157] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_generator_c.so" to ""\n'}
+[4.698432] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so\n'}
+[4.698630] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.698803] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.699008] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.699073] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so\n'}
+[4.699261] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.699430] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_c.so\n'}
+[4.699598] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_c.so" to ""\n'}
+[4.699736] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so\n'}
+[4.699931] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.700006] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_cpp.so\n'}
+[4.700232] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_typesupport_cpp.so" to ""\n'}
+[4.716726] (-) TimerEvent: {}
+[4.732516] (messages) StdoutLine: {'line': b"Listing '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages'...\n"}
+[4.732700] (messages) StdoutLine: {'line': b"Compiling '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/__init__.py'...\n"}
+[4.732763] (messages) StdoutLine: {'line': b"Listing '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg'...\n"}
+[4.732815] (messages) StdoutLine: {'line': b"Compiling '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/__init__.py'...\n"}
+[4.732865] (messages) StdoutLine: {'line': b"Compiling '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/_control.py'...\n"}
+[4.732913] (messages) StdoutLine: {'line': b"Compiling '/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages/messages/msg/_status.py'...\n"}
+[4.737482] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_generator_py.so\n'}
+[4.737774] (messages) StdoutLine: {'line': b'-- Set runtime path of "/home/oh/project/drive3/fulfilment/install/messages/lib/libmessages__rosidl_generator_py.so" to ""\n'}
+[4.737936] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport.cmake\n'}
+[4.738022] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.738168] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.738258] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.738428] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_generator_cppExport.cmake\n'}
+[4.738648] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.738731] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.738815] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.738891] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.738964] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport.cmake\n'}
+[4.739033] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.739141] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.739242] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.739352] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport.cmake\n'}
+[4.739449] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.739552] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport.cmake\n'}
+[4.739654] (messages) StdoutLine: {'line': b'-- Installing: /home/oh/project/drive3/fulfilment/install/messages/share/messages/cmake/export_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.741778] (messages) CommandEnded: {'returncode': 0}
+[4.760926] (messages) JobEnded: {'identifier': 'messages', 'rc': 0}
+[4.761718] (fulfilment) JobStarted: {'identifier': 'fulfilment'}
+[4.816868] (-) TimerEvent: {}
+[4.917157] (-) TimerEvent: {}
+[5.017418] (-) TimerEvent: {}
+[5.117701] (-) TimerEvent: {}
+[5.217977] (-) TimerEvent: {}
+[5.318244] (-) TimerEvent: {}
+[5.418524] (-) TimerEvent: {}
+[5.511561] (fulfilment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/oh/project/drive3/fulfilment/build/fulfilment/build', '--no-deps', 'symlink_data'], 'cwd': '/home/oh/project/drive3/fulfilment/build/fulfilment', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'oh', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/oh/project/drive3/fulfilment/install/messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/oh', 'OLDPWD': '/home/oh', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '923', 'SYSTEMD_EXEC_PID': '1088', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6877', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/oh/project/drive3/fulfilment/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'oh', 'JOURNAL_STREAM': '8:825', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'oh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/oh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/oh-550XBE-350XBE:@/tmp/.ICE-unix/1050,unix/oh-550XBE-350XBE:/tmp/.ICE-unix/1050', 'INVOCATION_ID': 'aac0ad84b5fd4abc9965e1fb7ba37b63', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JMZJ22', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '222', 'AMENT_PREFIX_PATH': '/home/oh/project/drive3/fulfilment/install/fulfilment:/home/oh/project/drive3/fulfilment/install/messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c4eb3b14-79ca-4c62-b1b3-700a642fe87e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/oh/project/drive3/fulfilment/build/fulfilment', 'QT_QPA_PLATFORM': 'xcb', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/oh/project/drive3/fulfilment/build/fulfilment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:/home/oh/project/drive3/fulfilment/install/messages/local/lib/python3.10/dist-packages:/home/oh/project/drive3/fulfilment/build/fulfilment:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/oh/project/drive3/fulfilment/install/messages'}, 'shell': False}
+[5.518615] (-) TimerEvent: {}
+[5.618860] (-) TimerEvent: {}
+[5.719133] (-) TimerEvent: {}
+[5.819400] (-) TimerEvent: {}
+[5.825975] (fulfilment) StdoutLine: {'line': b'running develop\n'}
+[5.919519] (-) TimerEvent: {}
+[6.019807] (-) TimerEvent: {}
+[6.078539] (fulfilment) StdoutLine: {'line': b'running egg_info\n'}
+[6.078680] (fulfilment) StdoutLine: {'line': b'creating fulfilment.egg-info\n'}
+[6.079007] (fulfilment) StdoutLine: {'line': b'writing fulfilment.egg-info/PKG-INFO\n'}
+[6.079261] (fulfilment) StdoutLine: {'line': b'writing dependency_links to fulfilment.egg-info/dependency_links.txt\n'}
+[6.079461] (fulfilment) StdoutLine: {'line': b'writing entry points to fulfilment.egg-info/entry_points.txt\n'}
+[6.079714] (fulfilment) StdoutLine: {'line': b'writing requirements to fulfilment.egg-info/requires.txt\n'}
+[6.079807] (fulfilment) StdoutLine: {'line': b'writing top-level names to fulfilment.egg-info/top_level.txt\n'}
+[6.079994] (fulfilment) StdoutLine: {'line': b"writing manifest file 'fulfilment.egg-info/SOURCES.txt'\n"}
+[6.081775] (fulfilment) StdoutLine: {'line': b"reading manifest file 'fulfilment.egg-info/SOURCES.txt'\n"}
+[6.082355] (fulfilment) StdoutLine: {'line': b"writing manifest file 'fulfilment.egg-info/SOURCES.txt'\n"}
+[6.083738] (fulfilment) StdoutLine: {'line': b'running build_ext\n'}
+[6.084002] (fulfilment) StdoutLine: {'line': b'Creating /home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages/fulfilment.egg-link (link to .)\n'}
+[6.084755] (fulfilment) StdoutLine: {'line': b'Installing conv script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment\n'}
+[6.084956] (fulfilment) StdoutLine: {'line': b'Installing input script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment\n'}
+[6.085046] (fulfilment) StdoutLine: {'line': b'Installing pub script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment\n'}
+[6.085205] (fulfilment) StdoutLine: {'line': b'\n'}
+[6.085304] (fulfilment) StdoutLine: {'line': b'Installed /home/oh/project/drive3/fulfilment/build/fulfilment\n'}
+[6.085511] (fulfilment) StdoutLine: {'line': b'running symlink_data\n'}
+[6.085595] (fulfilment) StdoutLine: {'line': b'creating /home/oh/project/drive3/fulfilment/install/fulfilment/share/ament_index\n'}
+[6.085656] (fulfilment) StdoutLine: {'line': b'creating /home/oh/project/drive3/fulfilment/install/fulfilment/share/ament_index/resource_index\n'}
+[6.085712] (fulfilment) StdoutLine: {'line': b'creating /home/oh/project/drive3/fulfilment/install/fulfilment/share/ament_index/resource_index/packages\n'}
+[6.085793] (fulfilment) StdoutLine: {'line': b'symbolically linking /home/oh/project/drive3/fulfilment/build/fulfilment/resource/fulfilment -> /home/oh/project/drive3/fulfilment/install/fulfilment/share/ament_index/resource_index/packages\n'}
+[6.085855] (fulfilment) StdoutLine: {'line': b'symbolically linking /home/oh/project/drive3/fulfilment/build/fulfilment/package.xml -> /home/oh/project/drive3/fulfilment/install/fulfilment/share/fulfilment\n'}
+[6.115446] (fulfilment) CommandEnded: {'returncode': 0}
+[6.119961] (-) TimerEvent: {}
+[6.122706] (fulfilment) JobEnded: {'identifier': 'fulfilment', 'rc': 0}
+[6.123186] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+[console_scripts]
+cam = fulfilment.camera:main
+conv = fulfilment.conveyor_gui:main
+conv_hand = fulfilment.conveyor:main
+gui = fulfilment.Gui_node:main
+gui_big = fulfilment.Gui_node_v1:main
+input_hand = fulfilment.conveyor_c_p_1:main
+pub_hand = fulfilment.publish:main
+sub_hand = fulfilment.sub:main
+yolo = fulfilment.yolo:main
+

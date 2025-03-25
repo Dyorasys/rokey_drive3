@@ -1,0 +1,24 @@
+[0.812s] Invoking command in '/home/oh/project/drive3/fulfilment/build/fulfilment': PYTHONPATH=/home/oh/project/drive3/fulfilment/build/fulfilment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/oh/project/drive3/fulfilment/build/fulfilment/build --no-deps symlink_data
+[1.147s] running develop
+[1.413s] running egg_info
+[1.414s] writing fulfilment.egg-info/PKG-INFO
+[1.414s] writing dependency_links to fulfilment.egg-info/dependency_links.txt
+[1.414s] writing entry points to fulfilment.egg-info/entry_points.txt
+[1.414s] writing requirements to fulfilment.egg-info/requires.txt
+[1.415s] writing top-level names to fulfilment.egg-info/top_level.txt
+[1.417s] reading manifest file 'fulfilment.egg-info/SOURCES.txt'
+[1.421s] writing manifest file 'fulfilment.egg-info/SOURCES.txt'
+[1.423s] running build_ext
+[1.423s] Creating /home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages/fulfilment.egg-link (link to .)
+[1.424s] Installing cam script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.424s] Installing conv script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.424s] Installing conv_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.424s] Installing gui script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.424s] Installing input_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.425s] Installing pub_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.425s] Installing sub_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.425s] Installing yolo script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+[1.425s] 
+[1.425s] Installed /home/oh/project/drive3/fulfilment/build/fulfilment
+[1.425s] running symlink_data
+[1.456s] Invoked command in '/home/oh/project/drive3/fulfilment/build/fulfilment' returned '0': PYTHONPATH=/home/oh/project/drive3/fulfilment/build/fulfilment/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/oh/project/drive3/fulfilment/build/fulfilment/build --no-deps symlink_data

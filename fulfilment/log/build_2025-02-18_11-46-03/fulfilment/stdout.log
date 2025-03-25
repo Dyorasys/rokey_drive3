@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing fulfilment.egg-info/PKG-INFO
+writing dependency_links to fulfilment.egg-info/dependency_links.txt
+writing entry points to fulfilment.egg-info/entry_points.txt
+writing requirements to fulfilment.egg-info/requires.txt
+writing top-level names to fulfilment.egg-info/top_level.txt
+reading manifest file 'fulfilment.egg-info/SOURCES.txt'
+writing manifest file 'fulfilment.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/oh/project/drive3/fulfilment/install/fulfilment/lib/python3.10/site-packages/fulfilment.egg-link (link to .)
+Installing conv script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+Installing conv_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+Installing gui script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+Installing input_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+Installing pub_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+Installing sub_hand script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+Installing yolo script to /home/oh/project/drive3/fulfilment/install/fulfilment/lib/fulfilment
+
+Installed /home/oh/project/drive3/fulfilment/build/fulfilment
+running symlink_data

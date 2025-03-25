@@ -1,0 +1,9 @@
+source;share/fulfilment/hook/pythonpath.ps1
+source;share/fulfilment/hook/pythonpath.dsv
+source;share/fulfilment/hook/pythonpath.sh
+source;share/fulfilment/hook/ament_prefix_path.ps1
+source;share/fulfilment/hook/ament_prefix_path.dsv
+source;share/fulfilment/hook/ament_prefix_path.sh
+source;../../build/fulfilment/share/fulfilment/hook/pythonpath_develop.ps1
+source;../../build/fulfilment/share/fulfilment/hook/pythonpath_develop.dsv
+source;../../build/fulfilment/share/fulfilment/hook/pythonpath_develop.sh
